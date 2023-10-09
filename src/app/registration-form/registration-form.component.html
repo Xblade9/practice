@@ -1,0 +1,79 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2>Registration Form</h2>
+      <form
+        [formGroup]="registerForm"
+        class="border p-4"
+        (ngSubmit)="register(registerForm.value); registerForm.reset()"
+      >
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            placeholder="Enter your first name"
+            required
+            formControlName="firstName"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            placeholder="Enter your last name"
+            required
+            formControlName="lastName"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+            required
+            formControlName="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your password"
+            required
+            formControlName="password"
+          />
+        </div>
+        <div class="row">
+          <div class="col-10">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              [disabled]="registerForm.invalid"
+            >
+              Register
+            </button>
+          </div>
+
+          <div class="col-2">
+            <button
+              type="submit"
+              class="btn btn-warning"
+              (click)="navigateToLogin()"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

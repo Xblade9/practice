@@ -1,0 +1,52 @@
+/* styles.css or your custom styles file */
+.mat-dialog-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mat-dialog-content {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.mat-dialog-actions {
+  justify-content: center;
+}
+
+.mat-dialog-close-button {
+  background-color: #007bff;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.mat-dialog-close-button:hover {
+  background-color: #0056b3;
+}
+
+.showtext {
+  height: 1000% !important;
+  width: 100% !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dialog-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 11px;
+  border: 2px solid hwb(0deg 93.04% 3.41%);
+  width: 600px;
+  height: 24rem;
+  padding: 10px;
+  background-position: top;
+}

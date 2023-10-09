@@ -1,0 +1,115 @@
+<app-navbar></app-navbar>
+<div class="container address-form">
+  <mat-card>
+    <div>
+      <mat-card-content>
+        <form
+          [formGroup]="addressForm"
+          (ngSubmit)="onSubmit(addressForm.value)"
+        >
+          <div class="address-header">
+            <mat-card-header>
+              <mat-checkbox
+                id="sameAs"
+                [checked]="isaddHome"
+                [color]="color"
+                (change)="homeAddress($event)"
+                formControlName="isSameAdd"
+                >Same as home address.</mat-checkbox
+              >&nbsp;
+              <mat-checkbox
+                id="different"
+                [checked]="isaddDiff"
+                [color]="color"
+                (change)="differentAddress($event)"
+                formControlName="isDiffAdd"
+                >Click here if you have different.</mat-checkbox
+              >
+            </mat-card-header>
+          </div>
+          <div class="mb-3">
+            <label for="address1" class="form-label">Address 1</label>
+            <input
+              type="text"
+              class="form-control"
+              id="address1"
+              formControlName="address1"
+              placeholder="Address 1"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="address2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="address2"
+              formControlName="address2"
+              placeholder="Address 2"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="addressType" class="form-label">Type of Address</label>
+            <select
+              class="form-select"
+              id="addressType"
+              formControlName="addressType"
+              style="width: auto"
+            >
+              <option value="home">Home</option>
+              <option value="work">Work</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="applicantName" class="form-label">Applicant Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="applicantName"
+              formControlName="applicantName"
+              placeholder="Applicant Name"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="dateOfBirth" class="form-label">Date of Birth</label>
+            <input
+              type="date"
+              class="form-control"
+              id="dateOfBirth"
+              formControlName="dateOfBirth"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="fatherName" class="form-label">Father's Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fatherName"
+              formControlName="fatherName"
+              placeholder="Father's Name"
+            />
+          </div>
+          <div>
+            <mat-card-actions>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                [disabled]="
+                  (addressForm.invalid || !isaddHome) &&
+                  (addressForm.invalid || !isaddDiff)
+                "
+              >
+                Submit
+              </button>
+            </mat-card-actions>
+          </div>
+        </form>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>

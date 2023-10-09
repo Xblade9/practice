@@ -1,0 +1,27 @@
+<!-- success-dialog.component.html -->
+<div class="dialog-content-wrapper">
+  <div mat-dialog-content>
+    <ng-container *ngTemplateOutlet="customContentTemplate"></ng-container>
+  </div>
+  <div mat-dialog-actions>
+    <button class="btn btn-md btn-success" (click)="closeClick()">Close</button>
+  </div>
+
+  <ng-template #customContentTemplate>
+    <div style="text-align: center">
+      <img
+        src="../../assets/Senttick.jpg"
+        alt=""
+        style="
+          height: 80px;
+          width: 80px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        "
+      />
+      <p class="showtext">{{ data.message }}</p>
+      <!-- You can add more content or customize it as needed -->
+    </div>
+  </ng-template>
+</div>

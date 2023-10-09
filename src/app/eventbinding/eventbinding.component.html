@@ -1,0 +1,12 @@
+<button
+  type="submit"
+  (click)="handleClick($event)"
+  class="btn btn-sm btn-primary"
+>
+  Click Me
+</button>
+<p *ngIf="eventInfo">Event Info : {{ eventInfo }}</p>
+
+<input type="text" #data />
+<button type="submit" (click)="inputEventData()">Show</button>
+<p *ngIf="inputData">Input by user : {{ inputData }}</p>

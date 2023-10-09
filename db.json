@@ -1,0 +1,273 @@
+{
+  "register": [
+    {
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "email": "Bruce.wayne@w.com",
+      "password": "Tangocharlie911",
+      "id": 1
+    },
+    {
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "email": "Bruce.wayne@w.com",
+      "password": "Tangocharlie911",
+      "id": 2
+    },
+    {
+      "firstName": "JOhn",
+      "lastName": "deer",
+      "email": "john@deer",
+      "password": "987",
+      "id": 3
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Fury",
+      "email": "Bryan.fury@tekken.com",
+      "password": "Torres",
+      "id": 4
+    },
+    {
+      "firstName": "Lili",
+      "lastName": "Tea",
+      "email": "Lili.tea@tekken.com",
+      "password": "Lili",
+      "id": 5
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "address1": "Hno-1",
+      "address2": "Delhi",
+      "addressType": "work",
+      "applicantName": "Bruce Wayne",
+      "dateOfBirth": "1993-01-01",
+      "fatherName": "jkljlk"
+    },
+    {
+      "id": 2,
+      "address1": "HNo-22",
+      "address2": "Street no-3",
+      "addressType": "work",
+      "applicantName": "Paras",
+      "dateOfBirth": "2023-09-08",
+      "fatherName": "Tst"
+    },
+    {
+      "id": 3,
+      "address1": "john",
+      "address2": "Deers",
+      "addressType": "home",
+      "applicantName": "Trick2g",
+      "dateOfBirth": "2023-09-13",
+      "fatherName": "Trickk",
+      "isSameAdd": true,
+      "isDiffAdd": ""
+    },
+    {
+      "id": 4,
+      "address1": "HarwardL",
+      "address2": "London",
+      "addressType": "work",
+      "applicantName": "John wick",
+      "dateOfBirth": "2023-09-08",
+      "fatherName": "Deer wick",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 5,
+      "address1": "Hno-22,Delhi,B-block",
+      "address2": "Kaushik,Delhi",
+      "addressType": "home",
+      "applicantName": "Sam Fisher",
+      "dateOfBirth": "1993-01-01",
+      "fatherName": "Yuo",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 6,
+      "address1": "lk;",
+      "address2": "lk",
+      "addressType": "other",
+      "applicantName": "kpoi",
+      "dateOfBirth": "2023-09-02",
+      "fatherName": "klj",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 7,
+      "address1": "h-1",
+      "address2": "kjl",
+      "addressType": "home",
+      "applicantName": "n,",
+      "dateOfBirth": "2023-09-05",
+      "fatherName": "nn",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 8,
+      "address1": "jk",
+      "address2": "kjh",
+      "addressType": "work",
+      "applicantName": "n,m",
+      "dateOfBirth": "2023-09-11",
+      "fatherName": "ljkjlk",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 9,
+      "address1": "jlksjdlk",
+      "address2": "jlkj",
+      "addressType": "other",
+      "applicantName": "kj",
+      "dateOfBirth": "2023-09-08",
+      "fatherName": "iuyiuy",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 10,
+      "address1": "Gotham City",
+      "address2": "Arkham,Street-99",
+      "addressType": "work",
+      "applicantName": "Bane",
+      "dateOfBirth": "2023-10-05",
+      "fatherName": "Dr.Bane",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 11,
+      "address1": "jlk",
+      "address2": "ljk",
+      "addressType": "home",
+      "applicantName": "sd",
+      "dateOfBirth": "2023-10-01",
+      "fatherName": "sd",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "id": 12,
+      "address1": "uoiu",
+      "address2": "oiuo",
+      "addressType": "work",
+      "applicantName": "nhjm",
+      "dateOfBirth": "2023-10-17",
+      "fatherName": "sdf",
+      "isSameAdd": null,
+      "isDiffAdd": null
+    },
+    {
+      "address1": "pip",
+      "address2": "opip",
+      "addressType": "other",
+      "applicantName": "hjk",
+      "dateOfBirth": "2023-10-13",
+      "fatherName": "nbn",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 13
+    },
+    {
+      "address1": "Hno-1",
+      "address2": "Delhi",
+      "addressType": "work",
+      "applicantName": "Paras Wayne",
+      "dateOfBirth": "1994-01-01",
+      "fatherName": "SamWayne",
+      "isSameAdd": true,
+      "isDiffAdd": false,
+      "id": 14
+    },
+    {
+      "address1": "jk",
+      "address2": "kj",
+      "addressType": "other",
+      "applicantName": "iou",
+      "dateOfBirth": "2023-10-05",
+      "fatherName": "tyuio",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 15
+    },
+    {
+      "address1": "tyuio",
+      "address2": "yuio",
+      "addressType": "home",
+      "applicantName": "cvbnm,.",
+      "dateOfBirth": "2023-10-12",
+      "fatherName": "tryuiop",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 16
+    },
+    {
+      "address1": "bvnm",
+      "address2": "bnm",
+      "addressType": "work",
+      "applicantName": "ertyu",
+      "dateOfBirth": "2023-10-18",
+      "fatherName": "xcvbn",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 17
+    },
+    {
+      "address1": "Hno-1",
+      "address2": "Delhi",
+      "addressType": "work",
+      "applicantName": "Bruce Wayne",
+      "dateOfBirth": "1993-01-01",
+      "fatherName": "Thomas Wayne",
+      "isSameAdd": true,
+      "isDiffAdd": false,
+      "id": 18
+    },
+    {
+      "address1": "tyui",
+      "address2": "yuio",
+      "addressType": "other",
+      "applicantName": "yuiop",
+      "dateOfBirth": "2023-10-12",
+      "fatherName": "cvbnm",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 19
+    },
+    {
+      "address1": "Hno-111",
+      "address2": "Gotham",
+      "addressType": "other",
+      "applicantName": "Paras Joshi",
+      "dateOfBirth": "1994-03-28",
+      "fatherName": "Jagdish Joshi",
+      "isSameAdd": true,
+      "isDiffAdd": false,
+      "id": 20
+    },
+    {
+      "address1": "GOtham city",
+      "address2": "Hno-22",
+      "addressType": "work",
+      "applicantName": "Bruce Wayne",
+      "dateOfBirth": "2023-10-12",
+      "fatherName": "Thomas Wayne",
+      "isSameAdd": null,
+      "isDiffAdd": null,
+      "id": 21
+    },
+    {
+      "isSameAdd": "",
+      "isDiffAdd": "",
+      "id": 22
+    }
+  ]
+}
