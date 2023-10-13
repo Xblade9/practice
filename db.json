@@ -34,6 +34,18 @@
       "email": "Lili.tea@tekken.com",
       "password": "Lili",
       "id": 5
+    },
+    {
+      "email": "adwd",
+      "pass": "adwwc",
+      "id": 6
+    },
+    {
+      "firstName": "Talon",
+      "lastName": "God",
+      "email": "tal@g.com",
+      "password": "123123123",
+      "id": 7
     }
   ],
   "address": [
@@ -279,6 +291,33 @@
       "isSameAdd": true,
       "isDiffAdd": false,
       "id": 23
+    }
+  ],
+  "login": [
+    {
+      "email": "tal@g.com",
+      "pass": "123123123",
+      "id": 1
+    },
+    {
+      "email": "tal1@g.com",
+      "pass": "123123123",
+      "id": 2
+    },
+    {
+      "email": "john@g.com",
+      "pass": "123",
+      "id": 3
+    },
+    {
+      "email": "KJlk@g.com",
+      "pass": "jlkj",
+      "id": 4
+    },
+    {
+      "email": "League@g.com",
+      "pass": "Torres@9",
+      "id": 5
     }
   ]
 }

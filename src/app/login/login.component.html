@@ -1,20 +1,52 @@
 <app-navbar></app-navbar>
 <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <h2>Login Form</h2>
-        <form class="border p-4">
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-          </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-          </div>
-          <button type="submit" class="btn btn-primary">Login</button>
-        </form>
-      </div>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2>Login Form</h2>
+      <form
+        [formGroup]="LoginForm"
+        (ngSubmit)="userLogin(); LoginForm.reset()"
+        class="border p-4"
+      >
+        <div class="mb-3">
+          <label for="email" class="form-label required">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+            required
+            formControlName="email"
+          />
+          <span
+            class="validation-error"
+            *ngIf="
+              (formSubmitted || LoginForm.controls['email'].touched) &&
+              LoginForm.controls['email'].errors?.['required']
+            "
+            [ngStyle]="{ color: '#ff0025' }"
+            >Email is required</span
+          >
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label required">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your password"
+            required
+            formControlName="pass"
+          />
+          <span
+            class="validation-error"
+            *ngIf="(formSubmitted||LoginForm.controls['pass'].touched)&& LoginForm.controls['pass'].errors?.['required']"
+            [ngStyle]="{ color: '#ff0025' }"
+            >Please enter strong password(Should have Uppercase, lowercase, numbers & special characters</span
+          >
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="LoginForm.invalid">Login</button>
+      </form>
     </div>
   </div>
-  
+</div>
