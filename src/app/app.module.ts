@@ -20,6 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PracticeComponent } from './practice/practice.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgTempSwitchComponent } from './ng-temp-switch/ng-temp-switch.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { NgTempSwitchComponent } from './ng-temp-switch/ng-temp-switch.component
     NavbarComponent,
     PracticeComponent,
     NgTempSwitchComponent,
+    ParentComponent,
+    ChildComponent,
     
   ],
   imports: [
